@@ -1,0 +1,19 @@
+{
+  "name": "codingtest",
+  "version": "1.0.0",
+  "main": "atCoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf .compiled && babel src --out-dir .compiled --source-maps",
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
